@@ -69,4 +69,8 @@
     #product #description #anchor {
         color: #48C757;
     }
+    #logo h3{
+        font-size: 20px;
+        padding-left: 0px;
+    }
 }
