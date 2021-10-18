@@ -1,0 +1,72 @@
+#logo {
+    display: flex;
+}
+
+#logo h3 {
+    padding-left: 50px;
+    font-size: 30px;
+    font-family: 'Montserrat Alternates', serif;
+    color: #71A1EC;
+    text-align: center;
+}
+
+#product {
+    display: flex;
+}
+
+#product #description {
+    padding-top: 40px;
+}
+
+#product #description #anchor {
+    color: #48C757;
+    font-family: 'Lato', sans-serif;
+}
+
+#product #description #anchor:hover {
+    color: #0aae1d;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+}
+
+#content {
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    #content {
+        display: inline;
+    }
+
+    #product {
+        display: inline;
+    }
+
+    #product img {
+        padding-left: 36%;
+    }
+
+    #about-us {
+        padding-top: 22%;
+        width: 100%;
+    }
+
+    #product #name {
+        width: 56%;
+        padding: 8px 5px;
+        margin: 8px 26%;
+        padding-left: 18%;
+        box-sizing: border-box;
+        border: 2px solid #71A1EC;
+        border-radius: 4px;
+    }
+
+    #product #description #anchor {
+        padding-left: 36%
+    }
+
+    #product #description #anchor {
+        color: #48C757;
+    }
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&amp;display=swap" rel="stylesheet">
+    <title>Lotus WLC</title>
+</head>
+
+<body>
+    <div id="logo">
+        <img src="./images/logo.jpeg" alt="logo" style="width: 30%; height: auto; max-width: 125px; max-height: 100px;">
+        <h3>Lotus Water Level Controllers (WLC)</h3>
+        <h4 style="color: rgb(114, 114, 114); text-align: center; font-family: 'Lato', sans-serif;">Beta Version</h4>
+    </div>
+    <br>
+    <div id="product" style="padding-top: 100px;">
+        <img src="./images/product_image.jpeg" alt="Product" style="width: 40%; height: auto; max-width: 350px; max-height: 400px;">
+        <div id="content">
+            <div id="description">
+                <form>
+                    <input type="text" id="name" placeholder="Enter your Name" style="width: 100%;
+                    padding: 12px 20px;
+                    margin: 8px 0;
+                    box-sizing: border-box;
+                    border: 2px solid #71A1EC;
+                    border-radius: 4px;">
+                </form>
+                <a id="anchor" onclick="openWhatsapp()">Click to chat on Whatsapp</a>
+            </div>
+            <div id="about-us" style="width: 70%; padding-left: 80px;">
+                <h3 style="font-family: 'Fira Code', monospace; text-decoration: underline;">About Us</h3>
+                <h4 style="padding-left: 20px; font-family: 'Lato', sans-serif; color: rgb(114, 114, 114);">Since 1991, we started with a lunch box as a hobby and for the requirements of the requested family
+                    members and friends, when the demand for the product raised due to your good service more people
+                    requested for the requirements and we expanded with the help of V-Guard products and been in the
+                    feel for a long time with service and installation and then V-Guard stopped its water level segment
+                    so we had a support set of the service request to keep the service of saving water in the stream,
+                    then in 2013 Lotus Water Level Controllers (Lotus WLC) came to existence, Even those there was a lot
+                    of water level controllers in the market just keeping the profit in the view, Lotus WLC stud out of
+                    the game to help people to safe water and electricity, the technology which is been used in the
+                    Lotus Systems saves 80% consumption of power compared to other controllers. </h4>
+                <h4 style="padding-left: 20px; font-family: 'Lato', sans-serif; color: rgb(114, 114, 114);">Lotus WLC's vision is to bring clean and stability of energy and saving nature at the same time,
+                    Using high-quality materials also gives long life to the water (pump) motor and Lotus system.</h4>
+                <div id="contact">
+                    <h3 style="font-family: 'Fira Code', monospace; text-decoration: underline;">Contact</h3>
+                    <h4 style="padding-left: 20px; font-family: 'Lato', sans-serif; color: rgb(114, 114, 114);">
+                        +91 8762322417<br>
+                        <br>
+                        lotuswlc@gmail.com<br>
+                        <br>
+                        Sharadadavi Nagar,<br>
+                        Mysore, Karnataka,<br>
+                        India - 570022.<br>
+                        <br>
+                        <a href="https://www.instagram.com/lotuswlc/?r=nametag" style="font-family: 'Lato', sans-serif; color: rgb(114, 114, 114);">Instagram - @LotusWLC</a><br>
+                        <br>
+                        <a href="www.olx.in/item/lotus-water-level-controllers-iid-1657645933" style="font-family: 'Lato', sans-serif; color: rgb(114, 114, 114);">OLX - Featured Ad</a><br>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    let value = document.getElementById('name').value;
+    let a = document.getElementById('anchor');
+
+    function openWhatsapp() {
+        var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+        let name = document.getElementById('name').value;
+        let url = `https://wa.me/918310242649/?app&text=Hello%2C%20My%20name%20is%20${name}`
+        window.open(url, '_blank')
+    }
+</script>
+
+</html>
